@@ -2,9 +2,13 @@ module StimulusReflexGlobalid
   class Engine < ::Rails::Engine
     isolate_namespace StimulusReflexGlobalid
 
+    @monkey_patched = false
     config.to_prepare do
       StimulusReflex::Reflex.class_eval do
-        unless instance_methods.include?(:original_initialize)
+
+        unless @monkey_patched
+          @monkey_patched = true
+
           alias_method :original_initialize, :initialize
 
           def initialize(channel, url: nil, element: nil, selectors: [], method_name: nil, permanent_attribute_name: nil, params: {})
