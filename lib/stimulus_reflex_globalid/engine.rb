@@ -4,9 +4,9 @@ module StimulusReflexGlobalid
 
     config.to_prepare do
       StimulusReflex::Reflex.class_eval do
-        alias_method :original_initialize, :initialize
-
         unless instance_methods.include?(:original_initialize)
+          alias_method :original_initialize, :initialize
+
           def initialize(channel, url: nil, element: nil, selectors: [], method_name: nil, permanent_attribute_name: nil, params: {})
             original_initialize(channel, url: url, element: element, selectors: selectors, method_name: method_name, permanent_attribute_name: permanent_attribute_name, params: params)
 
