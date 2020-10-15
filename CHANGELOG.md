@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/joshleblanc/stimulus_reflex_globalid/compare/v0.1.1...v0.1.2) (2020-10-15)
+
+
+### Bug Fixes
+
+* monkey patch was running more than once ([e3cf7fd](https://github.com/joshleblanc/stimulus_reflex_globalid/commit/e3cf7fdc35dfa20d3e9bf0f31e1be4152491eeca))
+
 ### [0.1.1](https://github.com/joshleblanc/stimulus_reflex_globalid/compare/v0.1.0...v0.1.1) (2020-10-15)
 
 
