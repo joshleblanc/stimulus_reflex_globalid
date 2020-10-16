@@ -27,5 +27,16 @@ end
 
 You can also use signed IDs.
 
+## Configuring
+
+You can turn off signed/unsigned IDs by configuring the gem.
+
+```
+StimulusReflexGlobalid::Engine.configure do |config|
+  config.allow_signed = false # default true
+  config.allow_unsigned = false # default true
+end
+```
+
 ## License
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
