@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/joshleblanc/stimulus_reflex_globalid/compare/v0.1.2...v0.1.3) (2020-10-16)
+
+
+### Features
+
+* allow turning off/on signed/unsigned global ids ([eb4cbd0](https://github.com/joshleblanc/stimulus_reflex_globalid/commit/eb4cbd04fad4dc076eb063106d65d5c8f1254785))
+
 ### [0.1.2](https://github.com/joshleblanc/stimulus_reflex_globalid/compare/v0.1.1...v0.1.2) (2020-10-15)
 
 
