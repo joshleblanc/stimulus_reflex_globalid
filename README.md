@@ -31,7 +31,7 @@ You can also use signed IDs.
 
 You can turn off signed/unsigned IDs by configuring the gem.
 
-```
+```ruby
 StimulusReflexGlobalid::Engine.configure do |config|
   config.allow_signed = false # default true
   config.allow_unsigned = false # default true
