@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    stimulus_reflex_globalid (0.2.0)
+    stimulus_reflex_globalid (0.2.1)
       rails (>= 5.2, < 7.0)
       stimulus_reflex
 
